@@ -27,6 +27,7 @@ footer {
     margin-top: 40px;
     box-shadow: 0 -5px 15px rgba(0,0,0,0.4);
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -51,20 +52,25 @@ footer {
 
 .card img {
     display: block;
-    max-width: 300px;   /* бажаний розмір фото */
-    width: 100%;        /* підлаштовується під картку */
-    height: auto;       /* не спотворюється */
-    margin: 20px auto;  /* центрування */
+    max-width: 300px;   
+    width: 100%;        
+    height: auto;       
+    margin: 20px auto;  
     border-radius: 10px;
     object-fit: cover;
     box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
 .about-block {
     display: flex;
-    align-items: flex-start;    /* вирівнює текст і фото по верхній лінії */
-    gap: 20px;                  /* відступ між текстом і фото */
+    align-items: flex-start;    
+    gap: 20px;                 
 }
 
 .about-block img {
-    width: 250px;               /* розмір фото справа */
+    width: 250px;               
     height: a
+
+.container {
+    flex: 1;
+}
+
