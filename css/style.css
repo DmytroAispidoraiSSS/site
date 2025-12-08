@@ -12,6 +12,13 @@ nav a:hover{color:#000;}
 input,textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #bbb;margin-bottom:15px;}
 button{background:#222;color:#fff;padding:12px 20px;border:0;border-radius:6px;cursor:pointer;}
 button:hover{background:#000;}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 footer {
     background: #000;
     color: #ccc;
