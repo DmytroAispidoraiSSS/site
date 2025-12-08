@@ -1,0 +1,63 @@
+body{font-family:'Segoe UI',Arial,sans-serif;background:#f1f1f1;margin:0;}
+header{background:#222;color:#fff;padding:25px 15px;text-align:center;font-size:26px;font-weight:bold;}
+.top{background:#333;color:#ddd;text-align:center;padding:15px 20px;font-size:15px;}
+nav{background:#fff;padding:15px;text-align:center;border-bottom:1px solid #ccc;}
+nav a{margin:0 15px;text-decoration:none;font-weight:bold;color:#333;}
+nav a:hover{color:#000;}
+.container{max-width:900px;margin:25px auto;}
+.card{background:#fff;padding:25px;border-radius:8px;margin-bottom:25px;box-shadow:0 0 8px rgba(0,0,0,.1);}
+.gallery{display:flex;gap:10px;flex-wrap:wrap;}
+.gallery-item{background:#eaeaea;padding:12px;width:31%;text-align:center;border-radius:6px;height:150px;display:flex;align-items:center;justify-content:center;font-size:14px;}
+.photo-block{background:#e3e3e3;border-radius:8px;height:250px;display:flex;align-items:center;justify-content:center;font-size:18px;color:#555;margin-top:15px;}
+input,textarea{width:100%;padding:10px;border-radius:6px;border:1px solid #bbb;margin-bottom:15px;}
+button{background:#222;color:#fff;padding:12px 20px;border:0;border-radius:6px;cursor:pointer;}
+button:hover{background:#000;}
+footer {
+    background: #000;
+    color: #ccc;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.4);
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px; 
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: calc(25% - 12px); 
+    height: 230px;         
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+.card img {
+    display: block;
+    height: auto;
+    margin: 15px auto; 
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+}
+
+.card img {
+    display: block;
+    max-width: 300px;   /* бажаний розмір фото */
+    width: 100%;        /* підлаштовується під картку */
+    height: auto;       /* не спотворюється */
+    margin: 20px auto;  /* центрування */
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.about-block {
+    display: flex;
+    align-items: flex-start;    /* вирівнює текст і фото по верхній лінії */
+    gap: 20px;                  /* відступ між текстом і фото */
+}
+
+.about-block img {
+    width: 250px;               /* розмір фото справа */
+    height: a
